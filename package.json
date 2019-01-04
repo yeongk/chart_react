@@ -10,8 +10,8 @@
     "author": "Yeong Kim",
     "license": "dms",
     "dependencies": {
-        "babel-core": "^6.18.2",
-        "babel-loader": "^6.2.8",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
         "babel-plugin-add-module-exports": "^0.2.1",
         "babel-plugin-react-html-attrs": "^2.0.0",
         "babel-plugin-transform-class-properties": "^6.19.0",
@@ -21,7 +21,10 @@
         "babel-preset-stage-0": "^6.16.0",
         "react": "^15.4.0",
         "react-dom": "^15.4.0",
-        "webpack": "^1.13.3",
-        "webpack-dev-server": "^1.16.2"
+        "webpack": "^4.28.3",
+        "webpack-dev-server": "^3.1.14"
+    },
+    "devDependencies": {
+        "webpack-cli": "^3.2.0"
     }
 }
